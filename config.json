@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "https://h20171210.wixsite.com/hallymincoporated",
+    "text": "최승환"
+  },
+  "text": {
+    "more": "",
+    "intro": "재벌간의 혼혈관계를 파악하고, 그 혼인으로 인해 태어난 자녀들을 중심으로 또 다른 혼인관계을 통해 연결관계가 이어지는 것을 시각화하였습니다.",
+    "title": "재벌의 가족관계"
+  },
+  "legend": {
+    "edgeLabel": "부부, 자녀",
+    "colorLabel": "",
+    "nodeLabel": "재벌 가족관계"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
